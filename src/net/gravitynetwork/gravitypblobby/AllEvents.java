@@ -83,8 +83,6 @@ public class AllEvents implements Listener {
         else if (e instanceof PlayerQuitEvent){
             PlayerQuitEvent quit = (PlayerQuitEvent) e;
 
-            Player p = quit.getPlayer();
-
             quit.setQuitMessage(null);
 
         }
